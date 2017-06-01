@@ -2,6 +2,8 @@
 
 This is timer for work based on pomodoro technique
 
+[![Known Vulnerabilities](https://snyk.io/test/github/luchanso/iq-stopwatch/badge.svg)](https://snyk.io/test/github/luchanso/iq-stopwatch)
+
 ---
 
 Concept Art:
