@@ -12,5 +12,8 @@ install:
 test:
   - npm test
 
+lint:
+  - npm lint
+
 build:
   - npm build
