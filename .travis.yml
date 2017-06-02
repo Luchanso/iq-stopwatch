@@ -4,16 +4,19 @@ node_js:
   - 8
 
 env:
-  - production
+  - NODE_ENV=production
 
 install:
+  - stage setup
   - npm install
 
 test:
-  - npm test
+  - stage test
+  - npm run test
 
 lint:
-  - npm lint
+  - stage lint
+  - npm run lint
 
 build:
-  - npm build
+  - npm run build
