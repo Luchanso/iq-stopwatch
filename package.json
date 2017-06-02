@@ -2,6 +2,7 @@
   "name": "iq-stopwatch",
   "version": "0.1.0",
   "dependencies": {
+    "debug": "^2.6.8",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-redux": "^5.0.5",
