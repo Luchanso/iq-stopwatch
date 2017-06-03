@@ -6,10 +6,12 @@ node_js:
 env:
   - NODE_ENV=production
 
+cache: yarn
+
 jobs:
   include:
     - stage: setup
-      script: npm install
+      script: yarn
 
     - stage: test
       script: npm run test
