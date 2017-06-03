@@ -6,17 +6,16 @@ node_js:
 env:
   - NODE_ENV=production
 
-install:
-  - stage setup
-  - npm install
+jobs:
+  include:
+    - stage: setup
+      script: npm install
 
-test:
-  - stage test
-  - npm run test
+    - stage: test
+      script: npm run test
 
-lint:
-  - stage lint
-  - npm run lint
+    - stage: lint
+      script: npm run lint
 
-build:
-  - npm run build
+    - stage: build
+      script: npm run test
