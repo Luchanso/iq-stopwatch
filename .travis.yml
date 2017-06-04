@@ -12,6 +12,7 @@ jobs:
 
     - stage: lint
       script: npm run lint
+      script: npm run lint-css
 
     - stage: build
       script: npm run test
