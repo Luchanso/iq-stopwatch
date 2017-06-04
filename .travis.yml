@@ -11,8 +11,8 @@ jobs:
       script: npm run test
 
     - stage: lint
-      script: npm run lint
-      script: npm run lint-css
+      script: echo one
+      script: echo two
 
     - stage: build
       script: npm run test
