@@ -5,7 +5,9 @@ plugins:
   - import
   - jest
 settings:
-  import/resolver: webpack
+  import/resolver:
+    webpack:
+        config: './config/webpack.config.dev.js'
 env:
   browser: true
   jquery: true
