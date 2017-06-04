@@ -1,3 +1,4 @@
+/* eslint-disable */
 'use strict';
 
 const errorOverlayMiddleware = require('react-error-overlay/middleware');
