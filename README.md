@@ -2,6 +2,7 @@
 
 This is timer for work based on pomodoro technique
 
+[![Travis branch](https://img.shields.io/travis/rust-lang/rust/master.svg)](https://github.com/Luchanso/iq-stopwatch)
 [![Known Vulnerabilities](https://snyk.io/test/github/luchanso/iq-stopwatch/badge.svg)](https://snyk.io/test/github/luchanso/iq-stopwatch)
 
 ---
