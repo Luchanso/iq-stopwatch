@@ -10,9 +10,6 @@ cache: yarn
 
 jobs:
   include:
-    - stage: setup
-      script: yarn
-
     - stage: test
       script: npm run test
 
