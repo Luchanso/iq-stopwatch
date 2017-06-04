@@ -1,0 +1,17 @@
+extends: airbnb
+plugins:
+  - react
+  - jsx-a11y
+  - import
+  - jest
+settings:
+  import/resolver: webpack
+env:
+  browser: true
+  jquery: true
+  jest: true
+parserOptions:
+  ecmaVersion: 8
+rules:
+  no-plus-plus: 0
+  no-use-before-define: 0

@@ -1,0 +1,18 @@
+language: node_js
+
+node_js:
+  - 8
+
+cache: yarn
+
+jobs:
+  include:
+    - stage: test
+      script: npm run test
+
+    - stage: lint
+      script: npm run lint
+    - script: npm run lint-css
+
+    - stage: build
+      script: npm run build
