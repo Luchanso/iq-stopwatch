@@ -11,7 +11,7 @@ cache: yarn
 jobs:
   include:
     - stage: test
-      script: yarn
+      script: yarn install
       script: npm run test
 
     - stage: lint
