@@ -3,15 +3,17 @@ language: node_js
 node_js:
   - 8
 
-env:
-  - NODE_ENV=production
+# env:
+#   - NODE_ENV=production
 
 cache: yarn
 
 jobs:
   include:
-    - stage: test
+    - stage: install
       script: yarn install --production=false
+
+    - stage: test
       script: npm run test
 
     - stage: lint
