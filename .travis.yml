@@ -15,4 +15,4 @@ jobs:
     - script: npm run lint-css
 
     - stage: build
-      script: npm run test
+      script: npm run build
