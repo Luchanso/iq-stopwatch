@@ -3,7 +3,9 @@ language: node_js
 node_js:
   - 8
 
-cache: yarn
+cache:
+  yarn: true
+  timeout: 1000
 
 jobs:
   include:
@@ -16,10 +18,3 @@ jobs:
 
     - stage: build
       script: npm run build
-
-deploy:
-  provider: pages
-  skip_cleanup: true
-  github_token: $GITHUB_TOKEN
-  on:
-    branch: master
