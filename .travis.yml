@@ -3,7 +3,9 @@ language: node_js
 node_js:
   - 8
 
-cache: yarn
+cache:
+  yarn: true
+  timeout: 1000
 
 jobs:
   include:
